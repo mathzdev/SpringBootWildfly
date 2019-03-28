@@ -72,4 +72,5 @@ Feito isso sua aplicação estará apta para efetuar o deploy do war, no wildfly
 
 ### Links
 ![spring boot](https://img.shields.io/badge/Spring%20Boot-2.2.0.BUILD.SNAPSHOT-brightgreen.svg) - https://spring.io/projects/spring-boot
+
 ![wildfly](https://img.shields.io/badge/Wildfly-8.0.0.Final-brightgreen.svg) - https://wildfly.org/
