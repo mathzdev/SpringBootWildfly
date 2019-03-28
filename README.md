@@ -5,7 +5,7 @@ Apenas um teste simples, para rodar as aplicações Spring Boot no Wildfly 8.0.0
 
 ### Classe Principal
 A classe principal deverá ser algo similar à:
-```
+```java
 package com.github.fenxlol.SpringBootWildfly;
 
 import org.springframework.boot.SpringApplication;
@@ -35,7 +35,7 @@ Precisamos extender a classe **org.springframework.boot.web.servlet.support.Spri
 ### Pom.xml
 
 Em seguida, algumas alterações também são necessárias no pom.xml, para excluir o inicializador padrão do servidor da Web incorporado do Tomcat e incluir a dependência do Servlet para poder compilar o projeto, as dependências do pom deverão ser algo como:
-```
+```xml
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -62,7 +62,7 @@ Em seguida, algumas alterações também são necessárias no pom.xml, para excl
 ```
 
 Lembre-se que o seu pom deverá ter o nome do artefato, versão e formato de empacotamento, tal como:
-```
+```xml
 <artifactId>SpringBootWildfly</artifactId>
 <version>0.0.1-SNAPSHOT</version>
 <packaging>war</packaging>
